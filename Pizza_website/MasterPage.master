@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 1169px;
+
+        }
+    </style>
+</head>
+<body style="height: 547px" background="images/Pizza15.jpg">
+    <form id="form1" runat="server">
+    <div style="text-align: center; color: #0000FF;">
+        &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="86px" 
+            ImageUrl="~/images/images.jpg" PostBackUrl="~/Homepage.aspx" Width="161px" />
+        <asp:Label ID="Label1" runat="server" style="text-align: center; font-size: 75pt;" 
+            Text="Pete's Famous Pizzeria" Font-Bold="True" Font-Size="XX-Large" 
+            ForeColor="#0033CC"></asp:Label>
+        &nbsp;since 2002<br />
+        <br />
+        <div style="text-align: right">
+            <h2 style="color: #0000FF">
+                Call Us At (401) 596-1918</h2>
+        </div>
+        <div style="text-align: right">
+            <h3 style="margin-left: 40px; color: #0000FF;">
+                9 East Avenue, Suite F&nbsp;
+            </h3>
+        </div>
+        <div style="text-align: right">
+            <h3>
+                &nbsp;Westerly, RI 02891-3107</h3>
+        </div>
+    <div style="text-align: center">
+     <img src="images/Creditcards.jpg" alt="" 
+            style="height: 39px; width: 412px; margin-top: 0px; text-align: center;" />
+    </div>
+        <br />
+    
+        <asp:Button ID="Button1" runat="server" Text="About" Width="120px" 
+            onclick="Button1_Click" PostBackUrl="~/About.aspx" 
+            style="text-align: right; color: #0000FF; background-color: #CC3399" />
+    
+        <asp:Button ID="Button2" runat="server" Text="Home Page" Width="120px" 
+            PostBackUrl="~/Homepage.aspx" 
+            style="color: #FF0000; background-color: #33CC33" />
+    
+        <asp:Button ID="Button3" runat="server" Text="Order" Width="120px" 
+            PostBackUrl="~/PreOrder.aspx" 
+            style="color: #0000FF; background-color: #00FFCC" />
+    
+        <asp:Button ID="Button4" runat="server" Text="Menu" Width="120px" 
+            PostBackUrl="~/Menu.aspx" 
+            style="color: #0000FF; background-color: #FF0000" />
+    
+        <asp:Button ID="Button5" runat="server" Text="Ingredients" Width="120px" 
+            PostBackUrl="~/Ingredients.aspx" 
+            style="color: #0000FF; background-color: #00FF00" />
+    
+        <asp:Button ID="Button6" runat="server" Text="Dietary Facts" Width="120px" 
+            PostBackUrl="~/Dietary_Facts.aspx" 
+            style="color: #FFFF00; background-color: #CC00CC" />
+    
+        <asp:Button ID="Button7" runat="server" Text="Kid's Korner" Width="120px" 
+            PostBackUrl="~/Kids_Korner.aspx" 
+            style="color: #006666; background-color: #FF9900" />
+    
+        <asp:Button ID="Button8" runat="server" Text="Cart" Width="120px" 
+            PostBackUrl="~/ViewCart.aspx" 
+            style="color: #0000FF; background-color: #009999" 
+            onclick="Button8_Click" />
+    
+        <asp:LinkButton ID="LinkButton1" runat="server" 
+            PostBackUrl="~/QuickPurchase.aspx">Quick Purchase</asp:LinkButton>
+    
+    </div>
+    <div style="height: 509px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <p style="width: 950px; margin-left: 140px">
+                &nbsp;&nbsp; &nbsp;</p>
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>
+        <table style="width:100%; margin-top: 117px;">
+            <tr>
+                <td class="style1">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+               
+            </tr>
+            <tr>
+                <td class="style1">
+                    &nbsp;</td>
+                
+                
+            </tr>
+            
+
+        </table>
+    </div>
+    </form>
+    <div style="text-align: center">
+        </div>
+    </body>
+</html>

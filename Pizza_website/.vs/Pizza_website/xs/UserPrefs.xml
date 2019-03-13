@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{A39D5171-BE98-4A52-B320-F69C43193254}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pizza_website Status">
+    <Files>
+      <File FileName="App_Start/WebApiConfig.cs" Line="1" Column="1" />
+      <File FileName="Global.asax.cs" Line="14" Column="1" />
+      <File FileName="Pizza_website Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Pizza__website PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
